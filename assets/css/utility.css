@@ -1,0 +1,90 @@
+/* -----------
+   default font style
+   ----------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700;800;900&display=swap');
+
+/*-- Remove Default style tag -- */
+*,
+*::before,
+*::after{
+ box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+body,
+h1,
+h2,
+h3,
+p,
+ul{
+    margin: 0;
+    padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #000;
+}
+
+.active{
+    color: var(--primary-color) !important;
+}
+
+/*--  set default color -- */
+:root {
+    --primary-color: #0296fd;
+    --secondary-color: #364d59;
+    --dark-color: #000;
+    --light-color: #fff;
+    --light-primary: #c6e5fa;
+    --linear-primary: #81bae3a9;
+  }
+  
+
+/*--  set default font in Body -- */
+body{
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.7;
+    color: #364d59!important;
+    font-weight: 300;
+    font-size: 1rem;
+    overflow-x: hidden;
+}
+
+/*-- common style class -- */
+.backdrop{
+    line-height: 1;
+    top: -20%;
+    position: absolute;
+    text-transform: uppercase;
+    z-index: -1;
+    font-weight: 900 !important;
+    font-size: 5rem;
+    color: #efefef;
+}
+.subtitle{
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+.title{
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+.title-head{
+    position: relative;
+}
+.meta{color: #ccc}
+
+.footer-head{
+    font-size: 1rem;
+}
